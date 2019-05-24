@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+  width: 1000px ;
+  height: auto;
+  border : 1px  solid #000;
+  margin: auto;
+   
+
+}
+.header{
+   width: 100%;
+   height: 120px;
+   border: 1px solid #000;
+   color: #11C4D4;
+
+}
+.menu{
+    width: 100%;
+    height: 30px;
+    border: 1px solid #852813;
+
+}
+.menu ul{
+    width: 100%;
+    height: 30px;
+    list-style: none;
+}
+.menu ul li{
+    float: left ;
+    line-height: 30px ;
+    margin-left: 10px;
+}
+.menu ul li a {
+    color: #131C1A;
+    text-decoration: none ;
+}
+.menu a:hover{
+    text-decoration: underline ;
+}
+.content{
+    width: 100%;
+    height: 400px;
+    border :  1px solid #000 ;
+}
+.left{
+    width: 200px;
+    height: 400px;
+    border: 1px solid #000;
+    float: left ;
+    color: #E60D0D;
+}
+
+
+.right{
+    width: 790px;
+    height: 400px;
+    
+    border: 1px solid #000;
+    float: right ;
+
+}
+.allsanpham ul{
+    width: 100% ;
+    list-style: none ;
+
+}
+.allsanpham ul li {
+    width: 150px ;
+    height: auto;
+    border: 1px solid #000;
+    text-align: center;
+    float: left ;
+    margin-left: 5px ;
+
+}
+.allsanpham ul li a{
+    text-decoration: none ;
+
+}
+
+.clear{
+    clear: both;/* clear không được nối với nhau */
+}
+
+.footer{
+    width: 100%;
+    height:80px ;
+    border: 1px solid #000;
+
+}
